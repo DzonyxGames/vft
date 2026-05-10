@@ -4,564 +4,162 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>VFT Radović | Ambulanta za rehabilitaciju</title>
-  <meta
-    name="description"
-    content="VFT Radović - ambulanta za rehabilitaciju, fizioterapiju, osteopatiju, homeopatiju i savremene tretmane."
-  />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
+  <header class="header">
     <div class="container nav">
-      <a href="#top" class="brand">
-        <div class="brand-icon">+</div>
-        <div>
-          <p class="brand-top">Ambulanta za rehabilitaciju</p>
-          <h2>VFT Radović</h2>
-        </div>
+      <a href="#" class="logo">
+        <span>VFT</span> Radović
       </a>
 
-      <nav class="desktop-nav">
-        <a href="#usluge">Usluge</a>
-        <a href="#tretmani">Tretmani</a>
-        <a href="#o-centru">O centru</a>
-        <a href="#video">Vežbe</a>
+      <nav class="menu" id="menu">
+        <a href="#pocetna">Početna</a>
+        <a href="#terapije">Terapije</a>
+        <a href="#onama">O nama</a>
         <a href="#kontakt">Kontakt</a>
+        <a href="tel:0637002120" class="call-btn">☎ Pozovite nas</a>
       </nav>
 
-      <button class="menu-btn" id="menuBtn" aria-label="Otvori meni">☰</button>
-    </div>
-
-    <div class="mobile-nav" id="mobileNav">
-      <a href="#usluge">Usluge</a>
-      <a href="#tretmani">Tretmani</a>
-      <a href="#o-centru">O centru</a>
-      <a href="#video">Vežbe</a>
-      <a href="#kontakt">Kontakt</a>
+      <button class="menu-btn" id="menuBtn">☰</button>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-left">
-          <div class="pill">
-            Fizioterapija • Osteopatija • Homeopata • Rehabilitacija
-          </div>
+  <main>
+    <section class="hero" id="pocetna">
+      <div class="container hero-content">
+        <div class="badge">Centar za rehabilitaciju i fizikalnu terapiju</div>
 
-          <h1>Ambulanta za rehabilitaciju Radović</h1>
+        <h1>
+          Ambulanta za <br />
+          rehabilitaciju <span>Radović</span>
+        </h1>
 
-          <p class="hero-text">
-            Savremena rehabilitacija, individualni pristup i tretmani usmereni na
-            brže smanjenje bola i kvalitetniji oporavak.
-          </p>
+        <p>
+          Savremena oprema, individualni pristup i stručni tim za vaš brzi i
+          dugotrajan oporavak. Više od 20 godina iskustva.
+        </p>
 
-          <div class="hero-buttons">
-            <a class="btn btn-primary" href="#kontakt">Zakažite termin</a>
-            <a class="btn btn-secondary" href="#usluge">Pogledajte usluge</a>
-          </div>
-
-          <div class="hero-stats">
-            <div class="stat-card">
-              <strong>2006</strong>
-              <span>Otvorena prva privatna ambulanta za fizikalnu terapiju i rehabilitaciju</span>
-            </div>
-            <div class="stat-card">
-              <strong>2009</strong>
-              <span>Osnivač i vlasnik Centra VFT Radović</span>
-            </div>
-            <div class="stat-card">
-              <strong>20+ godina</strong>
-              <span>Iskustva u fizikalnim tretmanima i rehabilitaciji</span>
-            </div>
-          </div>
-
-          <div class="hero-contact">
-            <div>📞 063/700 21 20</div>
-            <div>✉️ centar.vftradovic@gmail.com</div>
-            <div>📍 Petra Preradovića 54, 22000 Sremska Mitrovica, Srbija</div>
-          </div>
+        <div class="hero-buttons">
+          <a href="#terapije" class="btn primary">Naše terapije</a>
+          <a href="#onama" class="btn outline">O nama</a>
         </div>
 
-        <div class="hero-right">
-          <div class="hero-image-card">
-            <img
-              src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=80"
-              alt="Ambulanta za rehabilitaciju"
-            />
-            <div class="hero-image-content">
-              <span class="mini-pill">Savremena oprema</span>
-              <h3>Tretmani usmereni na bol, pokret i oporavak</h3>
-              <p>
-                Ambulanta objedinjuje fizikalnu terapiju, osteopatiju, manuelne
-                tehnike, kineziterapiju i savremene aparate za efikasniji oporavak.
-              </p>
-              <ul>
-                <li>Diskus hernija i bol u kičmi</li>
-                <li>Sportske povrede i oporavak</li>
-                <li>Tretmani za nerve, zglobove i meka tkiva</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <a href="#terapije" class="down-arrow">↓</a>
       </div>
     </section>
 
-    <section class="section" id="usluge">
+    <section class="section" id="terapije">
       <div class="container">
-        <div class="section-head">
-          <span class="section-label">Usluge centra</span>
-          <h2>Kompletna ponuda rehabilitacionih i terapijskih usluga</h2>
+        <div class="section-title">
+          <span>Terapije</span>
+          <h2>Naše usluge i tretmani</h2>
           <p>
-            Usluge su prikazane pregledno, uz moderan izgled i jasnije izdvojene
-            informacije za pacijente.
+            U VFT Radović centru dostupne su savremene terapije za bol, povrede,
+            rehabilitaciju i poboljšanje pokretljivosti.
           </p>
         </div>
 
-        <div class="services-grid">
-          <article class="service-card">
-            <img src="https://images.unsplash.com/photo-1580281657527-47a7a2f2f4b2?auto=format&fit=crop&w=1200&q=80" alt="emFieldPro aparat na pacijentu" />
-            <div class="service-content">
-              <h3>Super induktivni sistem emFieldPro</h3>
-              <p>
-                Najnovija i kompleksna metoda fizikalnog tretmana. emFieldPro
-                generiše magnetno polje 3 tesle, približno 600 puta jače od običnog magneta.
-              </p>
-              <h4>Primena</h4>
-              <ul>
-                <li>Cervikalni i lumbalni sindrom</li>
-                <li>Diskus hernija</li>
-                <li>Rupture mišića</li>
-                <li>Smrznuto rame i teniski lakat</li>
-                <li>Sindrom karpalnog tunela</li>
-                <li>Regeneracija nerva</li>
-                <li>Išijas</li>
-                <li>Tendinopatije</li>
-                <li>Gonartroze i koksartroze</li>
-                <li>Spazam</li>
-              </ul>
-            </div>
-          </article>
+        <div class="cards">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=900&q=80" alt="">
+            <h3>Fizikalna terapija</h3>
+            <p>Laser, ultrazvuk, magnet, elektrostimulacije i elektroterapija za smanjenje bola i bolju funkciju.</p>
+          </div>
 
-          <article class="service-card">
-            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=80" alt="HILT laser tretman na pacijentu" />
-            <div class="service-content">
-              <h3>HILT – laser visokog intenziteta</h3>
-              <p>
-                Laser visokog intenziteta sa snagom do 15W i dubokom penetracijom u tkivo.
-                Doprinosi biostimulaciji i reaktivaciji ćelijskog metabolizma.
-              </p>
-              <h4>Primena</h4>
-              <ul>
-                <li>Akutna i hronična bolna stanja</li>
-                <li>Fibromialgija</li>
-                <li>Bol u leđima</li>
-                <li>Istegnuća i rupture</li>
-                <li>Artroze</li>
-                <li>Burzitis, sinovitis, tendinitis</li>
-                <li>Sportske povrede</li>
-                <li>Posttraumatski edemi</li>
-              </ul>
-            </div>
-          </article>
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=900&q=80" alt="">
+            <h3>HILT laser</h3>
+            <p>Laser visokog intenziteta sa dubokom penetracijom u tkivo, za bolna stanja i regeneraciju.</p>
+          </div>
 
-          <article class="service-card">
-            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80" alt="TEKAR terapija na pacijentu" />
-            <div class="service-content">
-              <h3>WINBACK TEKAR</h3>
-              <p>
-                Inovativna termoterapija zasnovana na radiofrekvenciji. Aktivira
-                ćelijsku biostimulaciju i mikrocirkulaciju, podstiče limfni sistem
-                i ubrzava metaboličke procese.
-              </p>
-              <h4>Primena</h4>
-              <ul>
-                <li>Lumbalni sindrom i lumboišialgija</li>
-                <li>Diskus hernija</li>
-                <li>Cervikalni sindrom</li>
-                <li>Bol i ograničena pokretljivost ramena</li>
-                <li>Povrede tetiva, ligamenata i mišića ramena</li>
-                <li>Burzitis i kapsulitis</li>
-                <li>Oporavak posle preloma</li>
-                <li>Povrede meniskusa i gonartroza</li>
-                <li>Petni trn</li>
-                <li>Sindrom karpalnog tunela</li>
-              </ul>
-            </div>
-          </article>
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=80" alt="">
+            <h3>Shockwave terapija</h3>
+            <p>Terapija radijalnim udarnim talasima za petni trn, bolno rame, lakat, tetive i sportske povrede.</p>
+          </div>
 
-          <article class="service-card">
-            <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1200&q=80" alt="Shockwave terapija na pacijentu" />
-            <div class="service-content">
-              <h3>Shockwave terapija</h3>
-              <p>
-                Terapija radijalnim udarnim talasima za povrede i bolna stanja
-                mišićno-skeletnog sistema. Neinvazivna metoda koja ubrzava
-                regeneraciju i reparaciju mekih tkiva.
-              </p>
-              <h4>Primena</h4>
-              <ul>
-                <li>Petni trn i plantarni fascitis</li>
-                <li>Bolno rame</li>
-                <li>Teniski i golferski lakat</li>
-                <li>Skakačko koleno</li>
-                <li>Kalcifikacije u tetivama, mišićima i ligamentima</li>
-                <li>Cervikalni i lumbalni sindrom</li>
-                <li>Bolovi u Ahilovoj tetivi</li>
-                <li>Sportske povrede</li>
-              </ul>
-            </div>
-          </article>
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=900&q=80" alt="">
+            <h3>Manuelna terapija</h3>
+            <p>Bezbolne i sigurne manuelne tehnike, mobilizacije i manipulacije zglobova i mekih tkiva.</p>
+          </div>
 
-          <article class="service-card">
-            <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80" alt="Osteopatski tretman" />
-            <div class="service-content">
-              <h3>Osteopatski tretman stomaka</h3>
-              <p>
-                Primena osteopatskih tehnika kod smanjene ritmičke pokretljivosti
-                dijafragme i želuca, sa ciljem poboljšanja funkcije organa i smanjenja napetosti.
-              </p>
-              <h4>Primena</h4>
-              <ul>
-                <li>Podignut želudac</li>
-                <li>Usporen rad želuca i creva</li>
-                <li>Nadutost stomaka</li>
-                <li>Neredovno pražnjenje creva</li>
-                <li>Gorušica</li>
-                <li>Hijatus hernija</li>
-              </ul>
-            </div>
-          </article>
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&q=80" alt="">
+            <h3>Kineziterapija</h3>
+            <p>Individualne vežbe za povećanje snage, pokretljivosti, ravnoteže i korekciju položaja tela.</p>
+          </div>
 
-          <article class="service-card">
-            <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=1200&q=80" alt="Fizikalna terapija aparat" />
-            <div class="service-content">
-              <h3>Fizikalna terapija</h3>
-              <p>
-                Kontrolisana upotreba prirodnih oblika energije u terapijske svrhe,
-                sa ciljem smanjenja bola i povećanja funkcionalnosti mišića i zglobova.
-              </p>
-              <h4>Procedure</h4>
-              <ul>
-                <li>Laser</li>
-                <li>Ultrazvuk</li>
-                <li>Ultrasonoforeza</li>
-                <li>Magnet</li>
-                <li>Elektrostimulacije</li>
-                <li>Elektroterapija različitim vrstama struja</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="service-card">
-            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1200&q=80" alt="Kineziterapija sa pacijentom" />
-            <div class="service-content">
-              <h3>Kineziterapija</h3>
-              <p>
-                Primena pokreta u terapijske svrhe kroz individualni program vežbi
-                prilagođen stanju pacijenta i ciljevima oporavka.
-              </p>
-              <h4>Ciljevi</h4>
-              <ul>
-                <li>Povećanje mišićne snage</li>
-                <li>Povećanje elastičnosti</li>
-                <li>Poboljšanje koordinacije i ravnoteže</li>
-                <li>Smanjenje bola</li>
-                <li>Povećanje obima pokreta u zglobovima</li>
-                <li>Korekcija položaja tela i deformiteta</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="service-card">
-            <img src="https://images.unsplash.com/photo-1571019613576-2b22c76fd955?auto=format&fit=crop&w=1200&q=80" alt="PNF tretman" />
-            <div class="service-content">
-              <h3>PNF – proprioceptivna neuromuskularna facilitacija</h3>
-              <p>
-                Jedan od najpriznatijih koncepata za povrede mišićno-zglobnog sistema
-                i neurološka stanja, sa strogo individualnim pristupom.
-              </p>
-              <h4>Primena</h4>
-              <ul>
-                <li>Traumatologija</li>
-                <li>Hemiplegija</li>
-                <li>Periferne lezije nerava</li>
-                <li>Parkinsonizam</li>
-                <li>Multipla skleroza</li>
-                <li>Cervikalni i lumbalni sindrom</li>
-                <li>Artroze</li>
-                <li>Gerijatrija</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="service-card">
-            <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1200&q=80" alt="Manuelna terapija" />
-            <div class="service-content">
-              <h3>Manuelna terapija</h3>
-              <p>
-                Bezbolne i sigurne manuelne tehnike koje uključuju manipulacije i
-                mobilizacije zglobova, uz primenu na kičmi, perifernim zglobovima i mekim tkivima.
-              </p>
-              <h4>Oblasti rada</h4>
-              <ul>
-                <li>Manipulacije i mobilizacije zglobova</li>
-                <li>Rad na pršljenovima i perifernim zglobovima</li>
-                <li>Rad na mekim tkivima</li>
-                <li>Pristupi iz kiropraktike i osteopatije</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="service-card">
-            <img src="https://images.unsplash.com/photo-1516549655669-df83a0774514?auto=format&fit=crop&w=1200&q=80" alt="AWT tretman" />
-            <div class="service-content">
-              <h3>AWT tretmani za celulit</h3>
-              <p>
-                Acoustic Wave Therapy uz nastavak tretmana aparatom V-Actor radi
-                poboljšanja limfne drenaže, stimulacije mišića i smanjenja nepravilnosti kože.
-              </p>
-              <h4>Efekti</h4>
-              <ul>
-                <li>Sagorevanje depozita masti</li>
-                <li>Učvršćivanje vezivnog tkiva</li>
-                <li>Smanjenje strija i ožiljaka</li>
-                <li>Smanjenje obima na tretiranim regijama</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="service-card">
-            <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1200&q=80" alt="Masaža pacijenta" />
-            <div class="service-content">
-              <h3>Masaža</h3>
-              <p>Masažni tretmani prilagođeni potrebama oporavka, relaksacije i sportskog opterećenja.</p>
-              <h4>Vrste</h4>
-              <ul>
-                <li>Terapeutska masaža</li>
-                <li>Relaksaciona masaža</li>
-                <li>Sportska masaža</li>
-                <li>V-Actor masaža</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="service-card">
-            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1200&q=80" alt="Kinesio taping" />
-            <div class="service-content">
-              <h3>Kinesio taping</h3>
-              <p>
-                Primena specijalnih elastičnih traka na mesta povrede ili preopterećenja
-                radi podrške funkciji mišića, zgloba i limfne cirkulacije.
-              </p>
-              <h4>Efekti</h4>
-              <ul>
-                <li>Poboljšanje funkcije mišića</li>
-                <li>Smanjenje bola</li>
-                <li>Bolja funkcija zgloba</li>
-                <li>Poboljšanje cirkulacije limfe</li>
-              </ul>
-            </div>
-          </article>
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80" alt="">
+            <h3>Kinesio taping</h3>
+            <p>Elastične trake za podršku mišićima, zglobovima, smanjenje bola i poboljšanje cirkulacije limfe.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section section-soft" id="tretmani">
-      <div class="container">
-        <div class="section-head">
-          <span class="section-label">Tretmani kod</span>
-          <h2>Stanja i tegobe za koje centar pruža podršku</h2>
-        </div>
-
-        <div class="conditions-grid">
-          <div class="condition-item">Diskus hernija</div>
-          <div class="condition-item">Lumbalni sindrom</div>
-          <div class="condition-item">Išijalgija</div>
-          <div class="condition-item">Cervikalni sindrom</div>
-          <div class="condition-item">Brahijalgija</div>
-          <div class="condition-item">Čukljevi (Hallux valgus)</div>
-          <div class="condition-item">Okoštavanje kičme</div>
-          <div class="condition-item">Bol u grudnoj kičmi</div>
-          <div class="condition-item">Bol kod osteoporoze</div>
-          <div class="condition-item">Artroze kuka, kolena i ramena</div>
-          <div class="condition-item">Artritis</div>
-          <div class="condition-item">Sportske povrede mišića, tetiva, ligamenata i meniskusa</div>
-          <div class="condition-item">Rupture mišića, tetiva i ligamenata</div>
-          <div class="condition-item">Frakture (prelomi)</div>
-          <div class="condition-item">Teniski lakat</div>
-          <div class="condition-item">Golferski lakat</div>
-          <div class="condition-item">PASH (upala mekih tkiva ramena)</div>
-          <div class="condition-item">Frozen shoulder (smrznuto rame)</div>
-          <div class="condition-item">Distenzije (istegnuća)</div>
-          <div class="condition-item">Oštećenja perifernih nerava</div>
-          <div class="condition-item">Facijalis</div>
-          <div class="condition-item">Sindrom karpalnog tunela</div>
-          <div class="condition-item">Vrtoglavice</div>
-          <div class="condition-item">Glavobolje povezane sa vratnom kičmom</div>
-          <div class="condition-item">Hemiplegija i hemipareza (šlog)</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="o-centru">
-      <div class="container about-grid">
+    <section class="section soft" id="onama">
+      <div class="container about">
         <div>
-          <div class="section-head left">
-            <span class="section-label">O centru</span>
-            <h2>Iskustvo, edukacija i individualan pristup</h2>
-          </div>
-
-          <div class="about-text">
-            <p>
-              U Centru "VFT RADOVIĆ" dobijate punu pažnju i negu, uz individualni pristup
-              kako bi se postigla što bolja efikasnost tretmana.
-            </p>
-            <p>
-              Branislav Radović, D.O. osteopata, strukovni fizioterapeut i homeopata,
-              profesionalno se bavi fizikalnim tretmanima više od 20 godina.
-            </p>
-            <p>
-              Karijeru je započeo u Opštoj bolnici u Sremskoj Mitrovici, a zatim radio u
-              zavodu za specijalizovanu rehabilitaciju "Termal".
-            </p>
-            <p>
-              U aprilu 2006. otvorena je prva privatna ambulanta za fizikalnu terapiju i
-              rehabilitaciju u Sremskoj Mitrovici, a od kraja 2009. Branislav Radović je
-              osnivač i vlasnik Centra VFT Radović.
-            </p>
-            <p>
-              Dalje usavršavanje usmereno je ka manuelnoj medicini, osteopatiji i
-              kiropraktici, kroz brojne edukacije i postdiplomsko obrazovanje. Završene su
-              studije internacionalne osteopatije I.O.A. u trajanju od 4 godine prema normama
-              European Standard on Osteopathy, uz zvanje D.O. osteopata.
-            </p>
-          </div>
+          <span class="small-label">O nama</span>
+          <h2>Iskustvo, stručnost i individualan pristup</h2>
+          <p>
+            U Centru “VFT RADOVIĆ” dobijate punu pažnju i negu, uz individualni
+            pristup kako bi se postigla što bolja efikasnost tretmana.
+          </p>
+          <p>
+            Branislav Radović, D.O. osteopata, strukovni fizioterapeut i
+            homeopata, profesionalno se bavi fizikalnim tretmanima više od 20 godina.
+          </p>
+          <p>
+            U aprilu 2006. otvorena je prva privatna ambulanta za fizikalnu
+            terapiju i rehabilitaciju u Sremskoj Mitrovici, a od kraja 2009.
+            Branislav Radović je osnivač i vlasnik Centra VFT Radović.
+          </p>
         </div>
 
-        <div class="about-cards">
-          <div class="about-image-card">
-            <img
-              src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1200&q=80"
-              alt="Prostor ambulante"
-            />
-          </div>
-
-          <div class="info-card">
-            <h3>Dugogodišnja praksa</h3>
-            <p>Više od dve decenije rada u oblasti fizikalnih tretmana i rehabilitacije.</p>
-          </div>
-
-          <div class="info-card">
-            <h3>Savremena oprema</h3>
-            <p>Od emFieldPro i HILT lasera do TEKAR i Shockwave terapije, uz manuelne tretmane.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section video-section" id="video">
-      <div class="container video-grid">
-        <div>
-          <div class="section-head left">
-            <span class="section-label dark">Video i vežbe</span>
-            <h2>Vežbe za donji deo leđa</h2>
-            <p>
-              Na sajtu centra izdvojen je program vežbi za donji deo leđa sa ciljem
-              povećanja pokretljivosti kičme i jačanja leđnih i trbušnih mišića.
-            </p>
-          </div>
-
-          <ul class="video-points">
-            <li>Vežbe mogu pomoći u smanjenju ili uklanjanju bola u leđima.</li>
-            <li>Mogu se raditi i preventivno za lumbalni deo kičme.</li>
-            <li>Kod bola je naglašena potreba da se pacijent javi lekaru i fizioterapeutu radi individualnog programa.</li>
+        <div class="about-box">
+          <h3>20+ godina iskustva</h3>
+          <p>Fizikalna terapija, osteopatija, manuelna medicina, rehabilitacija i savremeni aparati.</p>
+          <ul>
+            <li>Diskus hernija</li>
+            <li>Lumbalni i cervikalni sindrom</li>
+            <li>Sportske povrede</li>
+            <li>Bol u zglobovima i mišićima</li>
           </ul>
-        </div>
-
-        <div class="video-card">
-          <img
-            src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1400&q=80"
-            alt="Vežbe"
-          />
-          <button id="videoBtn" class="video-btn">Pogledaj video</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="cta-section">
-      <div class="container cta-box">
-        <div>
-          <h2>Potrebna vam je procena i plan rehabilitacije?</h2>
-          <p>
-            Javite se centru i dogovorite tretman ili konsultaciju prema vašim tegobama,
-            povredi ili planu oporavka.
-          </p>
-        </div>
-        <div class="cta-actions">
-          <a href="tel:0637002120" class="btn btn-light">Pozovi odmah</a>
-          <a href="mailto:centar.vftradovic@gmail.com" class="btn btn-outline-light">Pošalji email</a>
         </div>
       </div>
     </section>
 
     <section class="section" id="kontakt">
-      <div class="container contact-grid">
+      <div class="container contact">
         <div>
-          <div class="section-head left">
-            <span class="section-label">Kontakt</span>
-            <h2>Tu smo za pitanja, informacije i zakazivanje</h2>
-          </div>
+          <span class="small-label">Kontakt</span>
+          <h2>Zakažite pregled ili tretman</h2>
+          <p>Za informacije i zakazivanje možete nas kontaktirati telefonom ili emailom.</p>
 
-          <div class="contact-card">
-            <div class="contact-item">
-              <strong>Telefon</strong>
-              <a href="tel:0637002120">063/700 21 20</a>
-            </div>
-            <div class="contact-item">
-              <strong>Email</strong>
-              <a href="mailto:centar.vftradovic@gmail.com">centar.vftradovic@gmail.com</a>
-            </div>
-            <div class="contact-item">
-              <strong>Adresa</strong>
-              <p>Petra Preradovića 54, 22000 Sremska Mitrovica, Srbija</p>
-            </div>
+          <div class="contact-info">
+            <p><strong>Telefon:</strong> <a href="tel:0637002120">063/700 21 20</a></p>
+            <p><strong>Email:</strong> <a href="mailto:centar.vftradovic@gmail.com">centar.vftradovic@gmail.com</a></p>
+            <p><strong>Adresa:</strong> Petra Preradovića 54, 22000 Sremska Mitrovica</p>
           </div>
         </div>
 
-
+        <form class="form" id="contactForm">
+          <input type="text" placeholder="Vaše ime" required />
+          <input type="email" placeholder="Vaš email" required />
+          <textarea placeholder="Vaša poruka" required></textarea>
+          <button type="submit">Pošalji upit</button>
+          <p id="formMsg"></p>
+        </form>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <h3>VFT Radović</h3>
-        <p>Ambulanta za rehabilitaciju</p>
-      </div>
-      <div>
-        <h4>Brzi linkovi</h4>
-        <a href="#usluge">Usluge</a>
-        <a href="#tretmani">Tretmani</a>
-        <a href="#o-centru">O centru</a>
-        <a href="#kontakt">Kontakt</a>
-      </div>
-      <div>
-        <h4>Kontakt</h4>
-        <p>063/700 21 20</p>
-        <p>centar.vftradovic@gmail.com</p>
-        <p>Petra Preradovića 54, Sremska Mitrovica</p>
-      </div>
-     
-      </div>
-    </div>
+  <footer>
+    <p>© VFT Radović — Ambulanta za rehabilitaciju</p>
   </footer>
 
   <script src="script.js"></script>
